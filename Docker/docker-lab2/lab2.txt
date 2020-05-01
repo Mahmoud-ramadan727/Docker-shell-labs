@@ -1,0 +1,13 @@
+LAB 02 :
+1- > docker pull jenkins/jenkins:latest
+2- > docker run --name jenkins-container -d -p 8099:8080 jenkins/jenkins
+3- > docker exec -it c0ae61cc6d8d bash
+   > ps -u | grep jenkins the process id is (1)
+4- > sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o \
+     /usr/local/bin/docker-compose
+   > docker compose --version
+after writing the docker-compose file attached:
+5- > docker-compose up -d
+
+6- > open localhost:8000 it wil redirect automatically to the wordpress site configuration---> as the mysql configs will be taken from the mysql-db container.
+

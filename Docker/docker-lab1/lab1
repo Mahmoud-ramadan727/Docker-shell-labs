@@ -1,0 +1,19 @@
+1- docker already installed 
+2- > docker version   				--> to git the running docker version 
+3- > sudo docker run hello-world
+4- > getent group | grep non  			--> to list all the groups (user-non) in 
+5- > docker run hello-world
+6- > systemctl enable docker
+7- > docker info
+8- > docker images				--> name, size, tag, id, created_at
+9- > docker ps -a 
+10-> docker container prune
+11-> docker rm 3c03c46faf1e 
+12-> ----------------------
+13-> docker build --tag build-essential:dockerfile .
+.
+.
+.
+19	-> docker login
+ 	-> docker push nohierhassan/pythonapp2:v0
+
